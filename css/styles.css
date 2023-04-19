@@ -120,7 +120,10 @@ body {
   padding: 0;
   margin-left: 0;
   margin: 0;
+  
 }
+
+
 
 .footer-list {
   list-style: none;
@@ -130,15 +133,16 @@ body {
   width: 270px;
 }
 
-.plan-list-item::before {
-content: "";
-width: 270px;
-height: 120px;
-background: #F5F4FA;
-border-radius: 4px;
-display: block;
-margin-bottom: 30px;
-}
+.plan-list-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+   margin-bottom: 30px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+  }
 
 
 .plan-list {
@@ -297,7 +301,7 @@ border-radius: 0px 0px 4px 4px;
 .names {
   padding-top: 30px;
   padding-bottom: 30px;
-
+background-color: #ffffff;
 }
 
 .section {
@@ -348,7 +352,7 @@ border-radius: 0px 0px 4px 4px;
   font-size: 16px;
   line-height: 1.2;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 16px;
 }
 
 .link {
@@ -441,35 +445,51 @@ border-radius: 0px 0px 4px 4px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
   background-color: white;
-  text-decoration: none;
+  
   padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 32px;
     padding-right: 32px;
   }
   
+  .client-link:hover {
+    border: 1px solid #2196F3;
+border-radius: 4px;
+  }
+
+  .client-list-item {
+margin-right: 30px;
+  }
+
   .client-icon {
    fill: currentColor;
   }
   
+  a:hover svg.client-icon,
+  a:focus svg.client-icon {
+  fill: #2196F3;
+}
+
   .client-list-icons {
-    text-decoration: none;
+    list-style: none;
     display: flex;
-    
+    padding-left: 0;
   }
 
   .container.clients {
-    display: flex;
-    text-decoration: none;
+    display: block;
   }
 
 /* footer */
+
+
 
 .footer-block {
   background-color: var(--background-color-main);
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  
 }
 
 .container.footer-icons {
@@ -515,6 +535,26 @@ footer .contacts {
   padding: 0;
   margin-bottom: 0;
 }
+
+.footer-social-list-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+
+.footer-social-list-icon {
+fill: #FFFFFF;
+}
+
+.footer-social-list-link:hover,
+.footer-social-list-link:focus {
+  background-color: #2196f3;
+}
+
 /* Icons */
 
 .container.footer-icons {
@@ -528,7 +568,8 @@ footer .contacts {
 
 .social-list {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  padding-left: 0;
 }
 
 .footer-links-title {
@@ -564,9 +605,9 @@ footer .contacts {
 fill: #AFB1B8;
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon{
-  fill: white;
+a:hover svg.social-list-icon,
+a:focus svg.social-list-icon {
+  fill:white
 }
 
 .social-list-link:hover,
