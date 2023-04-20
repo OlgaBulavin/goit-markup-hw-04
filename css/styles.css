@@ -50,12 +50,12 @@ body {
 .post-icon {
   fill: #757575;
   padding: 0;
-  }
-  
-  a:hover svg.post-icon,
-  a:focus svg.post-icon {
-    fill:#2196F3
-  }
+}
+
+a:hover svg.post-icon,
+a:focus svg.post-icon {
+  fill: #2196f3;
+}
 
 .visually-hidden {
   position: absolute;
@@ -130,10 +130,7 @@ body {
   padding: 0;
   margin-left: 0;
   margin: 0;
-  
 }
-
-
 
 .footer-list {
   list-style: none;
@@ -144,16 +141,15 @@ body {
 }
 
 .plan-list-link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 270px;
-    height: 120px;
-   margin-bottom: 30px;
-    background-color: #F5F4FA;
-    border-radius: 4px;
-  }
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
 
 .plan-list {
   list-style: none;
@@ -298,20 +294,23 @@ body {
   background-color: var(--secondary-button-color);
 }
 
-.shadow-button:hover, .shadow-button:focus {
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+.shadow-button:hover,
+.shadow-button:focus {
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
   border-radius: 4px;
 }
 
 .item-shadow {
-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-border-radius: 0px 0px 4px 4px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .names {
   padding-top: 30px;
   padding-bottom: 30px;
-background-color: #ffffff;
+  background-color: #ffffff;
 }
 
 .section {
@@ -438,9 +437,9 @@ background-color: #ffffff;
   background-color: var(--accent-color);
 }
 
-
 .gallery.box:hover {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 /* Our clients*/
@@ -452,57 +451,52 @@ background-color: #ffffff;
   width: 100%;
   height: 100%;
   color: rgba(175, 177, 184, 1);
-  border: 1px solid #AFB1B8;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   background-color: white;
-  
+
   padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 32px;
-    padding-right: 32px;
-  }
-  
-  .client-link:hover {
-    border: 1px solid #2196F3;
-border-radius: 4px;
-  }
-
-  .client-list-item {
-margin-right: 30px;
-  }
-
-  .client-icon {
-   fill: currentColor;
-  }
-  
-  a:hover svg.client-icon,
-  a:focus svg.client-icon {
-  fill: #2196F3;
+  padding-bottom: 16px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
-  .client-list-icons {
-    list-style: none;
-    display: flex;
-    padding-left: 0;
-  }
+.client-link:hover {
+  border: 1px solid #2196f3;
+  border-radius: 4px;
+}
 
-  .container.clients {
-    display: block;
-  }
+.client-list-item {
+  margin-right: 30px;
+}
+
+.client-icon {
+  fill: currentColor;
+}
+
+a:hover svg.client-icon,
+a:focus svg.client-icon {
+  fill: #2196f3;
+}
+
+.client-list-icons {
+  list-style: none;
+  display: flex;
+  padding-left: 0;
+}
+
+.container.clients {
+  display: block;
+}
 
 /* footer */
-
-
 
 .footer-block {
   background-color: var(--background-color-main);
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
-  
 }
-
-
 
 .footer {
   color: var(--title-text-color);
@@ -555,7 +549,7 @@ footer .contacts {
 }
 
 .footer-social-list-icon {
-fill: #FFFFFF;
+  fill: #ffffff;
 }
 
 .footer-social-list-link:hover,
@@ -564,8 +558,6 @@ fill: #FFFFFF;
 }
 
 /* Icons */
-
-
 
 .footer-icons {
   display: block;
@@ -585,15 +577,13 @@ fill: #FFFFFF;
   line-height: 1.14;
   margin-bottom: 20px;
   margin-top: 0;
- text-align: center;
+  text-align: center;
   padding-right: 0;
-  
 }
 
 .social-list-item {
   display: block;
   margin-right: 10px;
- 
 }
 
 .social-list-item:last-child {
@@ -611,12 +601,12 @@ fill: #FFFFFF;
 }
 
 .social-list-icon {
-fill: #AFB1B8;
+  fill: #afb1b8;
 }
 
 a:hover svg.social-list-icon,
 a:focus svg.social-list-icon {
-  fill:white
+  fill: white;
 }
 
 .social-list-link:hover,
