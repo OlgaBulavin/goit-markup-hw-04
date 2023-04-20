@@ -47,6 +47,16 @@ body {
   display: flex;
 }
 
+.post-icon {
+  fill: #757575;
+  
+  }
+  
+  a:hover svg.post-icon,
+  a:focus svg.post-icon {
+    fill:#2196F3
+  }
+
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -558,6 +568,12 @@ fill: #FFFFFF;
 /* Icons */
 
 .container.footer-icons {
+display: block;
+
+}
+
+.footer-parts {
+  display: flex;
 
 }
 
