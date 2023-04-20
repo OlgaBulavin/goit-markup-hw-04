@@ -49,7 +49,7 @@ body {
 
 .post-icon {
   fill: #757575;
-  
+  padding: 0;
   }
   
   a:hover svg.post-icon,
@@ -502,9 +502,7 @@ margin-right: 30px;
   
 }
 
-.container.footer-icons {
-  margin-left: 70px;
-}
+
 
 .footer {
   color: var(--title-text-color);
@@ -567,18 +565,10 @@ fill: #FFFFFF;
 
 /* Icons */
 
-.container.footer-icons {
-display: block;
 
-}
-
-.footer-parts {
-  display: flex;
-
-}
 
 .footer-icons {
-  display: flex;
+  display: block;
   align-items: center;
 }
 
@@ -595,6 +585,9 @@ display: block;
   line-height: 1.14;
   margin-bottom: 20px;
   margin-top: 0;
+ text-align: center;
+  padding-right: 0;
+  
 }
 
 .social-list-item {
