@@ -50,12 +50,32 @@ body {
 .post-icon {
   fill: #757575;
   padding: 0;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 
 a:hover svg.post-icon,
 a:focus svg.post-icon {
   fill: #2196f3;
 }
+
+.contacts-info {
+  display: flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-decoration: none;
+  list-style: none;
+  flex-wrap: wrap;
+  padding-left: auto;
+  padding-right: 10px;
+  padding: 0;
+  margin: 0 0 0 auto;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .visually-hidden {
   position: absolute;
@@ -96,6 +116,7 @@ a:focus svg.post-icon {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+ 
 }
 
 .flex-container {
@@ -251,8 +272,8 @@ a:focus svg.post-icon {
   margin: 0 0 0 auto;
 }
 
-.contacts:hover,
-.contacts:focus {
+.contacts-info:hover,
+.contacts-info:focus {
   color: var(--accent-color);
 }
 
@@ -491,11 +512,19 @@ a:focus svg.client-icon {
 
 /* footer */
 
+footer .container {
+  display: flex;
+  align-items: baseline;
+
+}
+
 .footer-block {
   background-color: var(--background-color-main);
   padding-top: 60px;
   padding-bottom: 60px;
   display: flex;
+  gap: 70px;
+  align-items: baseline;
 }
 
 .footer {
@@ -564,6 +593,10 @@ footer .contacts {
   align-items: center;
 }
 
+.footer-info {
+margin-right: 70px;
+}
+
 .social-list {
   display: flex;
   justify-content: center;
@@ -577,7 +610,7 @@ footer .contacts {
   line-height: 1.14;
   margin-bottom: 20px;
   margin-top: 0;
-  text-align: center;
+  
   padding-right: 0;
 }
 
