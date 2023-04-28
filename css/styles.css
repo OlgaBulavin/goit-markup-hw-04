@@ -475,6 +475,7 @@ a:focus svg.post-icon {
 
 .link-sdw {
   text-decoration: none;
+  display: block;
 }
 
 .link-sdw:hover {
