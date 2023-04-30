@@ -35,8 +35,8 @@ position: relative;
 position: fixed;
 top: 0;
 left: 0;
-width: 1600px;
-height: 1024px;;
+width: 100vw;
+height: 100vh;
 background-color: rgba(0, 0, 0, 0.2);
 transition: opacity 500ms linear visibility 500ms linear;
 }
@@ -734,6 +734,7 @@ margin-right: 70px;
   display: flex;
   justify-content: center;
   padding-left: 0;
+  margin: 0;
 }
 
 .footer-links-title {
